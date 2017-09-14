@@ -73,7 +73,8 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 #### 2. Final Model Architecture
 
 The final model architecture (model.py lines 18-24) consisted of a convolution neural network with the following layers and layer sizes as seen in the image below,
-![alt text](examples/nvidia.png)
+
+![alt text](examples/nvidia.PNG)
 
 #### 3. Creation of the Training Set & Training Process
 
@@ -83,7 +84,7 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to get back on center of the track. These images show what a recovery looks like :
 
-![alt text](examples/1.PNG)
+![alt text](examples/1.png)
 ![alt text](examples/2.PNG)
 
 After the collection process, I had 18933 training samples. I then preprocessed this data by extracting the file path of the images. A measurement correction was added to the left and right images. After testing for values of measurement correction between 0.2 and 0.3, 0.25 yielded better results.
