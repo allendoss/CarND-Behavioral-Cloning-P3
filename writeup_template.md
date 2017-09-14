@@ -36,7 +36,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-My model makes use of the Convolutional Neural Network model laid out in nVidia's End to End learning paper (model.py lines 40-54). Additional dropout layers were added to improve the network's performance.
+My model makes use of the Convolutional Neural Network model laid out in [nVidia's End to End learning paper](https://arxiv.org/abs/1604.07316) (model.py lines 40-54). Additional dropout layers were added to improve the network's performance.
 
 The model includes RELU layers to introduce nonlinearity (code lines 43-47), and the data is normalized in the model using a Keras lambda layer (code line 41). The data is also initially cropped to remove unnecessary background information in the top and bottom parts of the image (code line 42).
 
